@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+android:gravity="center"
+    >
+    <TextView
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|"
+        />
+
+    />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="5dp">
+
+
+        <TextView
+
+            android:id="@+id/tv_ranking_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ranking"
+            style="@style/tv_variants_value"/>
+
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|"
+        />
+
+</LinearLayout>
